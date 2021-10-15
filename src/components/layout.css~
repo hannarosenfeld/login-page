@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'future23';
+    src: url('font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+body {
+    height: 88vh;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    background-image: url('https://www.artranked.com/images/02/0216dc92dfcc1b0149204e528cfdb9a2.jpg');
+    font-family: future23, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+
+}
+
+.login-window {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 400px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: hotpink;
+}
+
+.login-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    margin: 2em 5em;
+    font-family: future23;
+}
